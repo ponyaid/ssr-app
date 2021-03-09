@@ -8,7 +8,7 @@
     "prod": "next start",
     "server": "npm run develop --prefix strapi-server",
     "serve": "concurrently \"npm run dev \" \"npm run server\"",
-    "start": "concurrently \"npm run prod -- -p 3005 \" \"npm run start --prefix strapi-server\""
+    "start": "concurrently \"npm run prod -- -p 3000 \" \"npm run start --prefix strapi-server\""
   },
   "dependencies": {
     "next": "10.0.8",
