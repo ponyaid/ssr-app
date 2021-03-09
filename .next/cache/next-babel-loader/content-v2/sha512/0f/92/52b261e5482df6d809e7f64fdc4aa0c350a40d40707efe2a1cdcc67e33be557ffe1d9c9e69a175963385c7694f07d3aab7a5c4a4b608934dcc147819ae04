@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport { MainLayout } from '../components/MainLayout';\nexport default function Index() {\n  return /*#__PURE__*/_jsx(MainLayout, {\n    children: /*#__PURE__*/_jsx(\"h1\", {\n      children: \"Hello NEXT.JS!\"\n    })\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
