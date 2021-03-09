@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "prod": "next start",
     "server": "npm run develop --prefix strapi-server",
-    "serve": "concurrently \"npm run dev \" \"npm run server\""
+    "serve": "concurrently \"npm run dev \" \"npm run server\"",
+    "start": "concurrently \"npm run prod -- -p 3005 \" \"npm run start --prefix strapi-server\""
   },
   "dependencies": {
     "next": "10.0.8",
