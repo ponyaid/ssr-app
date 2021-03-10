@@ -11,6 +11,7 @@
     "start": "concurrently \"npm run prod -- -p 3000 \" \"cross-env NODE_ENV=production npm run start --prefix strapi-server\""
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "next": "10.0.8",
     "react": "17.0.1",
     "react-dom": "17.0.1",

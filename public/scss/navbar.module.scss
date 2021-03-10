@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        width: 81px;
+        height: 40px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__navItem {
+        font-size: 14px;
+        font-weight: 600;
+        color: #d7dee4;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+
+        & + & {
+            margin-left: 3rem;
+        }
+    }
+}

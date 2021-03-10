@@ -1,3 +1,68 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: transparent;
+}
+
 body {
-    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans";
+    background-color: #15181b;
+}
+
+::selection {
+    color: #15181b;
+    background: #71fa98;
+    text-shadow: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

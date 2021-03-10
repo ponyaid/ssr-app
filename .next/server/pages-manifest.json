@@ -5,6 +5,6 @@
   "/about": "pages/about.html",
   "/": "pages/index.html",
   "/posts/[id]": "pages/posts/[id].html",
-  "/posts": "pages/posts.js",
+  "/posts": "pages/posts.html",
   "/_error": "pages/_error.js"
 }
