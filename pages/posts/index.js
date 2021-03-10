@@ -8,7 +8,7 @@ export default function Post() {
     const [posts, setPosts] = useState([])
 
     useEffect(async () => {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/posts`)
+        const res = await fetch(`${process.env.strapi}/posts`)
         const posts = await res.json()
         setPosts(posts)
     }, [])

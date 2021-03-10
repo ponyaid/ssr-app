@@ -1,5 +1,5 @@
 module.exports = {
     env: {
-        customKey: 'my-value',
+        strapi: 'http://localhost:1337'
     },
 }
