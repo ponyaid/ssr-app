@@ -3,11 +3,12 @@ import Box from '@material-ui/core/Box'
 import { MainLayout } from '../../layouts/MainLayout'
 
 
+
 export default function Post() {
     const [posts, setPosts] = useState([])
 
     useEffect(async () => {
-        const res = await fetch('http://localhost:1337/posts')
+        const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/posts`)
         const posts = await res.json()
         setPosts(posts)
     }, [])
